@@ -16,7 +16,7 @@ namespace ConsoleApp4
             int nbr;
 
             Console.WriteLine("enter un nombre");
-            nbr =Console.Read();
+             nbr= Convert.ToInt32(Console.ReadLine());
             for (int i = 2; i <= nbr / 2; i++)
             {
                 reste = nbr % i;
